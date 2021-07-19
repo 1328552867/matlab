@@ -1,0 +1,10 @@
+op1=6
+op2=2
+print(bin(op1))
+print(bin(op2))
+print(bin(~op1))#按位取反
+print(bin(op1&op2))#按位与
+print(op1|op2)#按位或
+print(op1^op2)#按位异或
+print(op1>>op2)#右移op2位
+print(op1<<op2)#左移op2位
